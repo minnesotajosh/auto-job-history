@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ResuMate</title>
+    <title>Auto Job History</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>ResuMate</h1>
-    <input type="file" id="resumeUpload" accept=".pdf,.doc,.docx,.txt" />
-    <p id="status">No file uploaded</p>
+    <h1>Auto Job History</h1>
+    <input type="file" id="resumeInput" accept=".pdf,.doc,.docx,.txt" />
+    <div id="fileInfo" style="display:none;">
+      <span id="fileName"></span>
+      <button id="openFile">Open</button>
+      <button id="removeFile">Remove</button>
+    </div>
     <script src="popup.js"></script>
   </body>
 </html>

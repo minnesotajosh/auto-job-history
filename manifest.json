@@ -3,7 +3,7 @@
   "name": "Auto Job History",
   "version": "0.1",
   "description": "Upload your resume once, and let Auto Job History fill out job applications for you.",
-  "permissions": ["storage"],
+  "permissions": ["storage", "activeTab"],
   "action": {
     "default_popup": "src/popup.html",
     "default_icon": {
