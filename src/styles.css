@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    padding: 16px;
+    width: 300px;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  #status {
+    margin-top: 12px;
+    color: #555;
+  }
+  
